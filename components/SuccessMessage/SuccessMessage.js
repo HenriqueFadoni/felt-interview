@@ -18,6 +18,7 @@ const SuccessMessage = () => (
       your handwriting, or get started with
       your first custom card design!
     </SuccessParagraph>
+    <Buttons />
   </View>
 );
 
