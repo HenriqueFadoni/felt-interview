@@ -1,12 +1,14 @@
-const varColors = {
-  black: '#09191F',
-  white: '#FFFFFF',
-  grey: '#999999',
-  gold: '#E0B752',
-  blue: '#5EA9C7'
-}
+import { StyleSheet } from 'react-native';
 
-export const styleComponent = {
-  flex: 1,
-  backgroundColor: varColors.black
-}
+import { varColors } from '../../style/variables.style';
+
+export const style = StyleSheet.create({
+  pageStyle: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: varColors.black
+  }
+});

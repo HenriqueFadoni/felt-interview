@@ -1,14 +1,15 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  Text,
-} from 'react-native';
+import { SafeAreaView } from 'react-native';
 
-import { styleComponent } from './SubscribeComplete.style'
+import { style } from './SubscribeComplete.style';
+
+import SuccessMessage from '../../components/SuccessMessage/SuccessMessage';
+import UserFeedback from '../../components/UserFeedback/UserFeedback';
 
 const SubscribeComplete = () => (
-  <SafeAreaView style={styleComponent}>
-    <Text>A</Text>
+  <SafeAreaView style={style.pageStyle}>
+    <SuccessMessage />
+    <UserFeedback />
   </SafeAreaView>
 );
 
